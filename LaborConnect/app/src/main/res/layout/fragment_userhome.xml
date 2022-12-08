@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/texthi"
+                android:text="@string/hi"
+                android:layout_margin="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/textColor"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textcity"
+                android:layout_margin="8dp"
+                android:textSize="12sp"
+
+
+                />
+
+
+        </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/home_service_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.103"
+        />
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/please_choose_your_service"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.203">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintHorizontal_bias="0.50">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/btnPlm"
+
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/water_tap"
+                    android:onClick="openOne"
+                    android:text="@string/plumber"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <!--            <ImageButton-->
+                <!--                android:layout_width="52dp"-->
+                <!--                android:layout_height="57dp"-->
+                <!--                android:background="@color/white"-->
+                <!--                android:src="@drawable/water_tap">-->
+
+                <!--            </ImageButton>-->
+
+
+                <Button
+                    android:id="@+id/btnCarp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+
+                    android:drawableTop="@drawable/carpenter"
+                    android:onClick="openOne"
+                    android:text="@string/carpenter"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp"
+
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/btnElec"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/electrician"
+                    android:onClick="openOne"
+                    android:text="@string/electrician"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp"
+
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/button"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/gardener"
+                    android:onClick="openOne"
+                    android:text="@string/gardener"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/cleaning"
+                    android:onClick="openOne"
+                    android:text="@string/cleaning"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp"
+
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/pest_control"
+                    android:onClick="openOne"
+                    android:text="@string/pest_control"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp"
+
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/babysitting"
+                    android:onClick="openOne"
+                    android:text="@string/babysitting"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/welding"
+                    android:onClick="openOne"
+                    android:text="@string/welder"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/btnwidth"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableTop="@drawable/painting"
+                    android:onClick="openOne"
+                    android:text="@string/painter"
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp"
+                    />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

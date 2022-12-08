@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185778806263",
+    "project_id": "laborconnect-9c744",
+    "storage_bucket": "laborconnect-9c744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185778806263:android:0dd662b1a946c9b90122f2",
+        "android_client_info": {
+          "package_name": "com.example.laborconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185778806263-vulkjned15gat7pkou3vk22t860iejhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLYauoKQdjYKuD1ypNGVDdWt3DErZCrSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185778806263-vulkjned15gat7pkou3vk22t860iejhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
