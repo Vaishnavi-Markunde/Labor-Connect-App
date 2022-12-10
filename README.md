@@ -11,7 +11,7 @@
 ## Workflow of the Application 
 
 The user would have to first register themselves either as a Customer or Worker 
-
+<br>
 
 <img src="/Output/Registration/registration.png"  height="600">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <img src="/Output/Registration/login.png"  height="600">
 
@@ -21,6 +21,8 @@ Once the user register, home page would be rendered based on the user type:
 <br>
 
 ## Customer Application Page:
+
+<br>
 
 <img src="/Output/User/homepage.png"  height="550">  &nbsp; &nbsp;  <img src="/Output/User/work_description_filled.png"  height="550"> &nbsp; &nbsp;
 <img src="/Output/User/address_filled.png"  height="550"> 
@@ -36,6 +38,8 @@ Once the user register, home page would be rendered based on the user type:
 <br>
 
 Customer can view their profile, check previous accepted requests and current pending requests. Customer can even delete the requests from Pending requests page.
+
+<br>
 
 <img src="/Output/User/user_profile.png"  height="550"> &nbsp; &nbsp;
 <img src="/Output/User/completed_requests.png"  height="550"> &nbsp; &nbsp;
@@ -55,6 +59,8 @@ Workers would see requests as per their profession and location. Worker can even
 <img src="/Output/Worker/updateLocation.png"  height="550">
 
 Whenever a user requests for a service , a notification is sent to the worker
+
+<br>
 
 <img src="/Output/Worker/newRequest_notification.png"  height="550"> &nbsp; &nbsp;
 
